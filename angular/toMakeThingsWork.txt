@@ -1,0 +1,4 @@
+fnm env --use-on-cd --shell powershell | Out-String | Invoke-Expression
+
+
+need to run this command to be able to use the node npm etc otherwise node would not be recognized or used
