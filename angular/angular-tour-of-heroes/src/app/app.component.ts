@@ -3,6 +3,7 @@ import { RouterOutlet } from '@angular/router';
 import { HeroesComponent } from "./heroes/heroes.component";
 import { CommonModule } from '@angular/common';
 import {FormsModule} from '@angular/forms';
+import { MessagesComponent } from './messages/messages.component';
 
 @Component({
   standalone: true,
@@ -11,7 +12,8 @@ import {FormsModule} from '@angular/forms';
   RouterOutlet,
   HeroesComponent,
   CommonModule,
-  FormsModule
+  FormsModule,
+  MessagesComponent
 ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
