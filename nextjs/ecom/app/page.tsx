@@ -1,4 +1,4 @@
 
 export default function Home() {
-  return <main>Ecom</main>
+  return <main>Hwllo World</main>
 }
